@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../images/background.jpg");
+    background-size: cover;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+canvas{
+    display: none;
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: .40s;
+    z-index: 100000;
+}
+
+#nav #icon{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+#nav .menu li{
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+}
+#nav .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: .30s;
+}
+
+#nav #bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#b{
+    color: crimson
+}
+
+#bar{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.nos{
+    position: absolute;
+}
+
+#content{
+    font-family: sans-serif;
+    left: 40px;
+    position: absolute;
+    color: #fff;
+}
+
+#camel-facts{
+    position: relative;
+    top: 430px;
+    left: 10px;
+    font-size: 28px;
+}
+#camel-fact-1{
+    position: relative;
+    font-size: 20px;
+    top: 440px;
+    left: -10px;
+}
+#camel-fact-2{
+    position: relative;
+    font-size: 20px;
+    top: 460px;
+    left: -10px;
+}
+
+#camel-fact-3{
+    position: relative;
+    font-size: 20px;
+    top: 480px;
+    left: -10px;
+}
+
+#no1{
+    top: 120px;
+}
+
+#camel{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+
+::-webkit-scrollbar{
+    background: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background: grey;
+}
+
+#no2{
+    top: 620px;
+}
+
+#chameleon{
+    position: absolute;
+    left: 10px;
+    top: 580px;
+}
+
+#chameleon-facts{
+    font-size: 28px;
+    position: absolute;
+    top: 840px;
+}
+
+#chameleon-fact-1,#chameleon-fact-2,#chameleon-fact-3,#chameleon-fact-4,#chameleon-fact-5{
+    font-size: 20px;
+    position: relative;
+    left: -10px;
+    padding: 12px 0;
+    top: 760px;
+}
+
+#no3{
+    top: 1140px;
+}
+
+#pigeon{
+    position: absolute;
+    left: 10px;
+    top: 1140px;
+}
+
+#pigeon-facts{
+    font-size: 28px;
+    position: absolute;
+    top: 1460px;
+}
+
+.pigeon-fact{
+    font-size: 20px;
+    position: relative;
+    left: -10px;
+    padding: 12px 0;
+    top: 1130px;
+}
+
+#no4{
+    top: 1765px;
+}
+
+#teddy-bear{
+    position: absolute;
+    left: 10px;
+    top: 1745px;
+}
+
+#teddy-bear-facts{
+    font-size: 28px;
+    position: absolute;
+    top: 2050px;
+}
+
+.teddy-bear-fact{
+    font-size: 20px;
+    position: relative;
+    left: -10px;
+    padding: 12px 0;
+    top: 1470px;
+}
+
+#no5{
+    top: 2260px;
+}
+
+#panda{
+    position: absolute;
+    left: 10px;
+    top: 2265px;
+}
+
+#panda-facts{
+    font-size: 28px;
+    position: absolute;
+    top: 2585px;
+}
+
+.panda-fact{
+    font-size: 20px;
+    position: relative;
+    left: -10px;
+    padding: 12px 0;
+    top: 1850px;
+}
+
+#no6{
+    top: 2890px;
+}
+
+#cicada{
+    position: absolute;
+    left: 10px;
+    top: 2870px;
+}
+
+#cicada-facts{
+    font-size: 28px;
+    position: absolute;
+    top: 3170px;
+}
+
+.cicada-fact{
+    font-size: 20px;
+    position: relative;
+    left: -10px;
+    padding: 12px 0;
+    top: 2180px;
+}
+
+#top{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 1px solid white;
+    outline: none;
+    background: dodgerblue;
+    position: absolute;
+    top: 3270px;
+    right: -200px;
+    font-size: 28px;
+    color: #fff;
+}
+
+#about-{
+    position: absolute;
+    left: 40px;
+    font-family: Ubuntu,sans-serif;
+}
+
+#about-para{
+    color: #fff;
+    font-family: Ubuntu, sans-serif;
+    position: relative;
+    top: 120px;
+}
+
+#para{
+    color: #fff;
+    font-size: 24px;
+    position: relative;
+    top: 130px;
+}
