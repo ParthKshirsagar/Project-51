@@ -247,7 +247,7 @@ canvas{
     outline: none;
     background: dodgerblue;
     position: absolute;
-    top: 3270px;
+    top: 3310px;
     right: -200px;
     font-size: 28px;
     color: #fff;
@@ -271,4 +271,23 @@ canvas{
     font-size: 24px;
     position: relative;
     top: 130px;
+}
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 3400px;
+    transition: all .1s ease;
+}
+
+footer span a{
+    text-decoration: none;
+    color: crimson;
+}
+footer span a:hover{
+    text-decoration: underline;;
 }
